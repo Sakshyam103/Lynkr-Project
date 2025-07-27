@@ -1,0 +1,45 @@
+# Node.js / React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+.expo/
+dist/
+web-build/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/build/
+/mobile-client/ios/build/
+/mobile-client/android/build/
+/mobile-client/android/app/build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
