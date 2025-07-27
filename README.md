@@ -28,8 +28,8 @@ This project implements a system for tracking and analyzing brand sponsorship ef
 ### Mobile Client Setup
 ```bash
 cd mobile-client
-npm install
-npm start
+npm install / yarn install
+npm start / yarn start
 ```
 
 ### Backend Setup
@@ -41,9 +41,15 @@ go run cmd/api/main.go
 
 ### Database Setup
 ```bash
-cd database
-sqlite3 brand_activations.db < schema.sql
+cd backend/data
+sqlite3 brand_activations.db < ../../schema.sql
 ```
+
+### note
+to login into brand use email: brand@example.com
+password: password
+
+you should be able to create user account by signup
 
 ## Git Branching Strategy
 
